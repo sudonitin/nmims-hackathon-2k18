@@ -299,6 +299,11 @@ function responsive_bar() {
 			  </section><br><hr>
 			</main>
 		</div>
+		<footer style="padding-top: 2%; padding-bottom: 2%; color: white; font-family: serif; background-color: #726b6b">
+		 
+		&nbsp; &nbsp; &nbsp;copyright(c) 2018. U R Important.com. All rights Reserved. <font class="font" style="float: right; margin-right: 1%;">Developed by <a style="color: #9fc2dd;" href = "https://github.com/globefire">Nitin,</a> <a style="color: #9fc2dd;" href="https://github.com/feministAF"> Reha</a></font>
+
+		</footer>
 		<script>
 			var myIndex = 0;
 			carousel();
