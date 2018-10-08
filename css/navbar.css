@@ -96,6 +96,25 @@ section .container-fluid p{
     float: right;
     display: block;
   }
+  section span{
+  font-family: 'Lora','Arial', sans-serif;
+  font-weight: bold;
+  font-size: 160%;
+  }
+
+  .h3 ,section p{
+    font-family: 'Roboto','Arial', sans-serif;
+    font-size: 100%;
+  }
+
+  section .container-fluid p{
+    font-family: 'Roboto','Arial', sans-serif;
+    font-size: 100%;
+  }
+
+  #bold-text{
+    font-size: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
