@@ -139,7 +139,7 @@ function test_input($data) {
 		.mySlides {display:none;}
 	</style>
 </head>	
-		<audio id="my_audio" src="music.mp3" loop="loop"></audio>
+		<audio id="my_audio" src="./music.mp3" loop="loop"></audio>
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="#sect-1" id="home" onclick="border1()"><i class="fas fa-home"></i> Home</a>
 		  <a href="#sect-2" id="quotes" onclick="border2()"><i class="fas fa-feather"></i> Quotes</a>
