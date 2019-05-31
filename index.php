@@ -139,7 +139,11 @@ function test_input($data) {
 		.mySlides {display:none;}
 	</style>
 </head>	
+<<<<<<< HEAD:index.php
 		<audio id="my_audio" src="./php/music.mp3" loop="loop"></audio>
+=======
+		<audio id="my_audio" src="./music.mp3" loop="loop"></audio>
+>>>>>>> a591b260fa2bc7e44b2e5e4d49a211025d94cc2e:php/navbar.php
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="#sect-1" id="home" onclick="border1()"><i class="fas fa-home"></i> Home</a>
 		  <a href="#sect-2" id="quotes" onclick="border2()"><i class="fas fa-feather"></i> Quotes</a>
