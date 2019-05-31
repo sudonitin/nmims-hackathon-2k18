@@ -131,7 +131,7 @@ function test_input($data) {
 	?>
 	<title>U r Important.com</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include "./php/header.php"; ?>
+	<?php include "./header.php"; ?>
 	<link rel="stylesheet" type="text/css" href="./css/navbar.css">
 	<script type="text/javascript" src="./js/navbar.js"></script>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -139,11 +139,7 @@ function test_input($data) {
 		.mySlides {display:none;}
 	</style>
 </head>	
-<<<<<<< HEAD:index.php
 		<audio id="my_audio" src="./php/music.mp3" loop="loop"></audio>
-=======
-		<audio id="my_audio" src="./music.mp3" loop="loop"></audio>
->>>>>>> a591b260fa2bc7e44b2e5e4d49a211025d94cc2e:php/navbar.php
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="#sect-1" id="home" onclick="border1()"><i class="fas fa-home"></i> Home</a>
 		  <a href="#sect-2" id="quotes" onclick="border2()"><i class="fas fa-feather"></i> Quotes</a>
