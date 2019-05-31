@@ -126,20 +126,20 @@ function test_input($data) {
 	}
 	$numbers = generate_random_numbers(1,92,15);
 	for($i=0;$i<=14;$i++){
-		$numbers[$i]='../images/'.$numbers[$i].'.jpg';
+		$numbers[$i]='./images/'.$numbers[$i].'.jpg';
 	}
 	?>
 	<title>U r Important.com</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php include "./header.php"; ?>
-	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
-	<script type="text/javascript" src="../js/navbar.js"></script>
+	<?php include "./php/header.php"; ?>
+	<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+	<script type="text/javascript" src="./js/navbar.js"></script>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">	<style>
 		.mySlides {display:none;}
 	</style>
 </head>	
-		<audio id="my_audio" src="music.mp3" loop="loop"></audio>
+		<audio id="my_audio" src="./php/music.mp3" loop="loop"></audio>
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="#sect-1" id="home" onclick="border1()"><i class="fas fa-home"></i> Home</a>
 		  <a href="#sect-2" id="quotes" onclick="border2()"><i class="fas fa-feather"></i> Quotes</a>
@@ -177,7 +177,7 @@ function responsive_bar() {
 			    				U R Important.com raises public awareness by organizing a variety positive events in partnership with dedicated individuals and communities across the country. Learn more about joining, supporting, or starting your own U R Important.com event near you. Start a U R Important.com Charter in your community! </p>
 			    			</div>
 			    			<div class="col-md col-lg col-sm">
-			    				<img src="../images/content-1.jpg" style="width: 100%;" class="wrap-img">
+			    				<img src="./images/content-1.jpg" style="width: 100%;" class="wrap-img">
 			    			</div>
 			    		</div>
 			    	</div>
@@ -214,13 +214,13 @@ function responsive_bar() {
 		    			<a href="https://mhaofnyc.org/what-i-learned-from-my-suicide-attempt/?_ga=2.218323033.1791358035.1538908887-1080897535.1538908887" class="btn btn-success">See Mike's story</a>
 		    		</div>
 		    		<div class="col-sm col-lg col-xs col-md">
-		    			<img src="../images/mike.png" style="height:30vh;padding-left: 10%;width:">
+		    			<img src="./images/mike.png" style="height:30vh;padding-left: 10%;width:">
 		    		</div>
 		    	</div>
 		    	<br><br>
 		    	<div class="row">
 		    		<div class="col-sm col-lg col-xs col-md">
-		    			<img src="../images/david.png" style="height:30vh;padding-left: 10%;width:">
+		    			<img src="./images/david.png" style="height:30vh;padding-left: 10%;width:">
 		    		</div>
 		    		<div class="col-sm col-lg col-xs col-md">
 		    			<br>
@@ -245,7 +245,7 @@ function responsive_bar() {
 		    			
 		    		</div>
 		    		<div class="col-sm col-lg col-xs col-md">
-		    			<img src="../images/terry.png" style="height:30vh;padding-left: 10%;width:">
+		    			<img src="./images/terry.png" style="height:30vh;padding-left: 10%;width:">
 		    		</div>
 		    	</div>
 		    	
